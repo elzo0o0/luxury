@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <div class="logo">Luxury</div>
+
+        <nav class="icons-nav">
+          <a href="index.html" title="Catalog" data-test-id="menu-shop">🏠</a>
+          <a href="cart.html" title="Cart" data-test-id="menu-cart"
+            >🛒 <span id="cart-count" data-test-id="cart-badge"></span
+          ></a>
+          <a href="profile.html" title="Profile" data-test-id="menu-profile"
+            >👤</a
+          >
+          <a href="history.html" title="History" data-test-id="menu-history"
+            >📦</a
+          >
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search products..."
+          />
+          <div id="suggestions" class="suggestions hidden"></div>
+        </div>
+
+        <button id="themeBtn" data-test-id="theme-toggle">🌙</button>
+      </div>
+    </header>
+
+    <div class="profile-container" data-test-id="profile">
+      <h2>My Profile</h2>
+
+      <div class="field">
+        <label>Name</label>
+        <input id="name" data-test-id="profile-name" />
+        <div class="error" id="nameError"></div>
+      </div>
+
+      <div class="field">
+        <label>E-mail</label>
+        <input id="email" data-test-id="profile-email" />
+        <div class="error" id="emailError"></div>
+      </div>
+
+      <label class="checkbox" data-test-id="profile-notifications">
+        <input type="checkbox" id="notify" />
+        Receive notifications about new products
+      </label>
+
+      <button id="saveBtn" type="button" data-test-id="profile-save">
+        Save
+      </button>
+
+      <div id="msg" class="success"></div>
+    </div>
+
+    <script src="js/common.js" defer></script>
+    <script src="js/profile.js" defer></script>
+  </body>
+</html>

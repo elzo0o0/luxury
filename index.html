@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Luxury</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <div class="logo">Luxury</div>
+
+        <nav class="icons-nav">
+          <a href="index.html" title="Catalog" data-test-id="menu-shop">🏠</a>
+          <a href="cart.html" title="Cart" data-test-id="menu-cart"
+            >🛒 <span id="cart-count" data-test-id="cart-badge"></span
+          ></a>
+          <a href="profile.html" title="Profile" data-test-id="menu-profile"
+            >👤</a
+          >
+          <a href="history.html" title="History" data-test-id="menu-history"
+            >🕓</a
+          >
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <div class="search-box">
+          <input id="searchInput" type="text" data-test-id="search-input" />
+          <div
+            id="suggestions"
+            class="suggestions hidden"
+            data-test-id="search-suggestions"
+          ></div>
+        </div>
+
+        <button id="themeBtn" data-test-id="theme-toggle">🌙</button>
+      </div>
+    </header>
+
+    <div class="filters">
+      <label
+        ><input type="checkbox" value="Yacht" data-test-id="filter" />
+        Yacht</label
+      >
+      <label
+        ><input type="checkbox" value="Plane" data-test-id="filter" />
+        Plane</label
+      >
+      <label
+        ><input type="checkbox" value="Mansion" data-test-id="filter" />
+        Mansion</label
+      >
+      <label
+        ><input type="checkbox" value="Island" data-test-id="filter" />
+        Island</label
+      >
+    </div>
+
+    <div id="productsGrid" class="grid" data-test-id="product-list"></div>
+
+    <div id="notification" class="notification hidden"></div>
+
+    <div id="productModal" class="modal hidden" data-test-id="modal">
+      <div class="modal-box">
+        <button class="modal-close" data-test-id="modal-close">×</button>
+        <img id="modalImage" class="modal-img" />
+        <div class="modal-info">
+          <h2 id="modalName" data-test-id="modal-title"></h2>
+          <div id="modalType"></div>
+          <p id="modalDesc" data-test-id="modal-description"></p>
+          <div id="modalPrice" data-test-id="modal-price"></div>
+
+          <button id="cartBtn" class="modal-btn" data-test-id="add-to-cart">
+            Add to cart
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="notification" class="notification hidden"></div>
+    <script src="js/common.js" defer></script>
+    <script src="js/products.js" defer></script>
+  </body>
+</html>

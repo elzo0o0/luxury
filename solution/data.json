@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "type": "Yacht",
+    "name": "Azimut 77 Yacht",
+    "price": 3500000,
+    "image": "Azimut 77.jpg",
+    "description": "Luxurious 77-foot motor yacht with state-of-the-art amenities, spacious master suite, and capacity for 8 guests plus crew. Features advanced navigation systems, entertainment areas, and outdoor decks with panoramic views."
+  },
+  {
+    "id": 2,
+    "type": "Plane",
+    "name": "Gulfstream G650ER",
+    "price": 75000000,
+    "image": "Gulfstream G650ER.webp",
+    "description": "Redefine business travel with this state-of-the-art executive jet, offering a sophisticated workspace, luxurious seating, and unparalleled connectivity. Seamlessly connect continents and conduct your affairs in privacy and style, maximizing your valuable time."
+  },
+  {
+    "id": 3,
+    "type": "Mansion",
+    "name": "Modern Mansion Los-Angeles",
+    "price": 52000000,
+    "image": "cool_house.jpg",
+    "description": "This sleek Los Angeles villa features floor-to-ceiling glass and an infinity pool with breathtaking skyline views. It is a stunning masterpiece of modern architecture and California luxury."
+  },
+  {
+    "id": 4,
+    "type": "Island",
+    "name": "Bahamas Island",
+    "price": 150000000,
+    "image": "is.jpg",
+    "description": "This pristine tropical sanctuary offers unparalleled seclusion amidst turquoise waters and swaying palms. The ultra-modern estate features a private helipad and world-class amenities for the ultimate luxury escape."
+  },
+  {
+    "id": 5,
+    "type": "Yacht",
+    "name": "Sunseeker 90 Ocean Yacht",
+    "price": 9000000,
+    "image": "sunseeker 90 ocean.jpg",
+    "description": "Embrace refined elegance on this classic mega-yacht, where timeless design meets contemporary luxury, offering spacious guest quarters and a serene ambiance. Enjoy meticulously crafted interiors and impeccable service, ensuring every moment is one of pure indulgence."
+  },
+  {
+    "id": 6,
+    "type": "Plane",
+    "name": "Bombardier Global 7500",
+    "price": 80000000,
+    "image": "Bombardier Global 7500.jpeg",
+    "description": "Is the world's largest and longest-range business jet, capable of connecting cities as distant as New York and Hong Kong without a fuel stop. Its spacious cabin offers four distinct living areas, including a master suite with a full-size bed, providing an unmatched level of luxury and comfort for global travelers."
+  },
+  {
+    "id": 7,
+    "type": "Mansion",
+    "name": "Beverly Hills Mega Mansion",
+    "price": 100000000,
+    "image": "cool_house2.webp",
+    "description": "An architectural masterpiece, this contemporary residence boasts sleek lines and expansive glass walls, seamlessly integrating breathtaking panoramic views into every living space. It features state-of-the-art smart home technology, a gourmet chef's kitchen, and a luxurious spa, defining modern opulent living."
+  },
+  {
+    "id": 8,
+    "type": "Island",
+    "name": "Wavi Island",
+    "price": 70000000,
+    "image": "Wavi Island.jpg",
+    "description": "Discover an untouched gem where verdant rainforest meets dramatic ocean vistas, providing a canvas for your dream estate. This private island offers a harmonious blend of natural beauty and absolute seclusion, ideal for those seeking tranquility and a connection to nature."
+  },
+  {
+    "id": 9,
+    "type": "Yacht",
+    "name": "Bering B165 Yacht",
+    "price": 35000000,
+    "image": "bering-b165.jpg",
+    "description": "Glide across turquoise waters in unparalleled style aboard this majestic superyacht, featuring opulent suites and a world-class entertainment deck. Experience ultimate privacy and personalized service, transforming every voyage into an unforgettable escape."
+  },
+  {
+    "id": 10,
+    "type": "Plane",
+    "name": "Boeing BBJ 777X",
+    "price": 100000000,
+    "image": "BBJ_777-9_in-flight.jpg",
+    "description": "The plane represents the pinnacle of long-range private aviation, capable of connecting any two cities on Earth non-stop in unparalleled luxury. Its massive, fully customizable cabin provides a sophisticated sanctuary in the sky, blending cutting-edge technology with the world’s most spacious twin-engine interior."
+  },
+  {
+    "id": 11,
+    "type": "Mansion",
+    "name": "Golden Mansion Miami",
+    "price": 67000000,
+    "image": "d.jpg",
+    "description": "Is a breathtaking testament to architectural opulence, boasting sun-kissed facades and lavish interiors adorned with exquisite gold detailing. This ultra-luxury waterfront estate offers a seamless blend of world-class amenities and stunning coastal views, providing an unparalleled sanctuary for elite living."
+  },
+  {
+    "id": 12,
+    "type": "Island",
+    "name": "Island Maldives",
+    "price": 120000000,
+    "image": "maldives.webp",
+    "description": "This breathtaking private island offers an exclusive sanctuary surrounded by pristine white sands and vibrant turquoise lagoons. Boasting world-class snorkeling reefs and immense development potential, this rare tropical gem represents the ultimate investment for those seeking unparalleled luxury and seclusion."
+  }
+]
